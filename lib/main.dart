@@ -46,7 +46,7 @@ class MainApp extends StatelessWidget {
                     backgroundColor: const Color.fromARGB(255, 0, 255, 51),
                     child: const CircleAvatar(
                       radius: 50,
-                      backgroundImage: NetworkImage('assets/images/putra.jpg'),
+                      backgroundImage: AssetImage('assets/images/putra.jpg'),
                     ),
                   ),
                   const SizedBox(height: 12),
